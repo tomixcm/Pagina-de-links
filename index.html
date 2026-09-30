@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mis Links</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background:
+                radial-gradient(circle at top, #5b00a8 0%, transparent 35%),
+                radial-gradient(circle at bottom, #240044 0%, #09000f 65%);
+
+            color: white;
+            padding: 30px;
+        }
+
+        .contenedor {
+            width: 100%;
+            max-width: 550px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+
+            color: #ffffff;
+
+            text-shadow:
+                0 0 5px #b84dff,
+                0 0 15px #b84dff,
+                0 0 30px #8a00ff;
+        }
+
+        .descripcion {
+            color: #d8baff;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .link {
+            display: block;
+
+            padding: 17px 20px;
+
+            background: rgba(71, 0, 110, 0.55);
+
+            border: 1px solid #a72cff;
+            border-radius: 12px;
+
+            color: white;
+            text-decoration: none;
+
+            font-size: 18px;
+            font-weight: bold;
+
+            box-shadow:
+                0 0 8px rgba(168, 44, 255, 0.6),
+                inset 0 0 10px rgba(168, 44, 255, 0.15);
+
+            transition: 0.3s;
+        }
+
+        .link:hover {
+            transform: scale(1.03);
+
+            background: #7900b8;
+
+            border-color: #e08cff;
+
+            box-shadow:
+                0 0 10px #b72cff,
+                0 0 25px #a000ff,
+                0 0 45px #7900ff;
+        }
+
+        .numero {
+            color: #d77cff;
+            margin-right: 8px;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #8f6ba8;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Links Actividades</h1>
+
+        <p class="descripcion">
+            Todos mis enlaces en un solo lugar
+        </p>
+
+        <div class="links">
+
+           
+            <a class="link" href="https://tomixcm.github.io/Detector-de-temperatura-V1/" target="_blank">
+                <span class="numero">01</span> Actividad 1
+            </a>
+
+           
+            <a class="link" href="https://tomixcm.github.io/Torta-para-todos-Act2/" target="_blank">
+                <span class="numero">02</span> Actividad 2
+            </a>
+
+           
+            <a class="link" href="https://github.com/tomixcm/Actividad3" target="_blank">
+                <span class="numero">03</span> Actividad 3
+            </a>
+
+          
+            <a class="link" href="https://tomixcm.github.io/Medida-de-monitor-Act4/" target="_blank">
+                <span class="numero">04</span> Actividad 4
+            </a>
+
+            
+            <a class="link" href="https://github.com/tomixcm/Actividad5" target="_blank">
+                <span class="numero">05</span> Actividad 5
+            </a>
+
+           
+            <a class="link" href="https://tomixcm.github.io/Calcula-IMC-Act6/" target="_blank">
+                <span class="numero">06</span> Actividad 6
+            </a>
+
+            
+            <a class="link" href="https://tomixcm.github.io/Verifica-tu-usuario-Act7/" target="_blank">
+                <span class="numero">07</span> Actividad 7
+            </a>
+
+          
+            <a class="link" href="https://tomixcm.github.io/Actividad8-DOM/" target="_blank">
+                <span class="numero">08</span> Actividad 8
+            </a>
+
+           
+            <a class="link" href="https://github.com/tomixcm/Actividad9" target="_blank">
+                <span class="numero">09</span> Actividad 9
+            </a>
+
+        </div>
+
+        <footer>
+            © 2026 — Tomixcm
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
